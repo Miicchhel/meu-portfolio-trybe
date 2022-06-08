@@ -1,0 +1,54 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.8rem;
+    background-color: #d2e3da;
+}
+
+#minha-foto{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10% 80% 80% 80%;
+}
+
+#titulo-principal{
+    font-size: 3.4rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+h3{
+    font-size: 2.3rem;
+}
+
+a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#trybe{
+    color:#036b52;
+    background-color: #2fc18c;
+
+}
+
+p{
+    text-align: center;
+}
+
+em{
+    background-color: #6aad8b80;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.ponto-destaque{
+    font-size: 2rem;
+}

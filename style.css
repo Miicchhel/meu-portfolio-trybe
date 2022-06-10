@@ -11,9 +11,7 @@ body{
 #minha-foto{
     width: 300px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10% 80% 80% 80%;
+    margin: 0 auto;
 
     transform: rotate(30deg);
 }
@@ -48,9 +46,30 @@ em{
 }
 
 ul{
-    list-style-type: none;
+    /* list-style-type: none; */
+    list-style: none;
+    padding: 10px;
 }
 
 .ponto-destaque{
     font-size: 2rem;
+}
+
+div.container{
+    /* border: 3px solid red; */
+    width: 500px;
+    margin: 0 auto;
+    position: relative
+}
+
+.container .habilidades, .redes{
+    /* border: 3px solid blue; */
+    display: inline-block;
+    width: 30%;
+}
+
+.container .redes{
+    position: absolute;
+    right:0px;
+
 }
